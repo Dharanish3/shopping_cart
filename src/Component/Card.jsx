@@ -54,11 +54,11 @@ function Card({cart , setCart }) {
                             <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                 <div className="text-center">
                                 {
-                                    show? <a className="btn btn-outline-dark mt-auto" href="#" onClick={() => {
+                                    show? <a className="btn btn-outline-dark mt-auto" href="" onClick={() => {
                                         setCart (cart+1)
                                         unShow (false)
                                     }}>Add to cart</a> :
-                                    <a className="btn btn-outline-dark mt-auto" href="#" onClick={() => {
+                                    <a className="btn btn-outline-dark mt-auto" href="" onClick={() => {
                                         setCart (cart-1)
                                         unShow (true)
                                     }}>Remove Cart</a>
